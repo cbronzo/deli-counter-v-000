@@ -14,7 +14,18 @@ def line(katz_deli)
   end
 end
 
-def take_a_number
+def take_a_number('name', katz_deli)
+    puts "Welcome, #{"name"}. You are number #{katz_deli[]} in line."
+  end
+  
+  def now_serving(katz_deli)
+    if
+      puts "Currently serving #{katz_deli[]}}"
+      array.pop
+   else
+     puts "There is nobody waiting to be served!"
+   end
+ end
 
 
 
