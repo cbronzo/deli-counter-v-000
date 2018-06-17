@@ -21,7 +21,7 @@ def take_a_number(katz_deli,name)
   
   def now_serving(katz_deli)
     if
-      puts "Currently serving #{katz_deli[]}}"
+      puts "Currently serving #{katz_deli.length}"
       array.pop
    else
      puts "There is nobody waiting to be served!"
