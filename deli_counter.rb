@@ -18,8 +18,4 @@ end
 
 
 
-      current_line << " #{index}. #{person}"
-  
-
-
 
