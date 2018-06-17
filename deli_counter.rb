@@ -14,7 +14,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number('name', katz_deli)
+def take_a_number(name, katz_deli)
     puts "Welcome, #{"name"}. You are number #{katz_deli[]} in line."
   end
   
